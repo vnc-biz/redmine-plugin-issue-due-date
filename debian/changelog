@@ -1,0 +1,5 @@
+redmine-plugin-issue-due-date (0.1.0.1-precise4) precise; urgency=low
+
+  * Packaging for Ubuntu precise
+
+ -- Enrico Weigelt, metux IT service <weigelt@metux.de>  Wed, 06 Sep 2012 04:45:13 +0200

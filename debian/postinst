@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /usr/share/redmine && \
+	rake --trace db:migrate_plugins RAILS_ENV=production
+
+cd /usr/share/redmine && \
+	rake issue_due_date_plugin:update_due_dates RAILS_ENV=production
